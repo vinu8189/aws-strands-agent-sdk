@@ -16,6 +16,4 @@ print(response)
 # Access metrics through the AgentResult
 print(f"Total tokens: {response.metrics.accumulated_usage['totalTokens']}")
 print(f"Execution time: {sum(response.metrics.cycle_durations):.2f} seconds")
-
-
-
+print(f"Tools used: {list(response.metrics.tool_metrics.keys())}")
