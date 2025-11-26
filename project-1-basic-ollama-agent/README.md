@@ -53,7 +53,7 @@ host="http://localhost:11434"
 From the project folder:
 
 ```bash
-python3 agent.py
+python3 -u agent.py
 ```
 
 You’ll see:
