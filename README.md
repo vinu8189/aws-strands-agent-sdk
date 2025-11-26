@@ -8,17 +8,19 @@ This repository documents my learning journey in building **local-first, intelli
 
 * Using the Strands Agent SDK with local LLMs
 * Creating agents, prompting, and reading execution metrics
+* Designing basic RAG-style pipelines (retrieval + generation on local data)
+* Adding tools so agents can act more autonomously (call functions, APIs, and utilities)
 * Integrating Strands tools and multi-step reasoning
 * Observability fundamentals (metrics, logs, traces)
 * Preparing agents for external telemetry dashboards (Dash0, Grafana, OTEL Collector)
 
 ### Future plans
 
-* Add more advanced agent examples
-* Include OpenTelemetry pipelines and dashboards
-* Explore secure deployment patterns for local agents
+* Add more advanced agent examples (tools, multi-step reasoning, RAG)
+* Containerize agents with Docker and experiment with local deployment patterns
+* Explore scaling and monitoring options for local-first agents
 * Add small utilities, helper scripts, and reusable templates
-* Document learnings and architectural insights as the projects grow
+* Document learnings, trade-offs, and architectural insights as the projects grow
 
 This is an evolving repository intended for continuous experimentation, learning, and improvement.
 
