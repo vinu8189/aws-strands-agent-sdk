@@ -1,7 +1,7 @@
 from strands import Agent
 from strands.models.ollama import OllamaModel
 
-# 1.Agent
+# Agent
 ollama_model = OllamaModel(
     host="http://localhost:11434",
     model_id="gemma3:1b",
@@ -13,7 +13,7 @@ response = agent("Tell me about planet jupiter in 50 words.")
 
 print(response)
 
-# Access metrics through the AgentResult
+# Access metrics through the Agentresponse
 print(f"Total tokens: {response.metrics.accumulated_usage['totalTokens']}")
 print(f"Execution time: {sum(response.metrics.cycle_durations):.2f} seconds")
 print(f"Tools used: {list(response.metrics.tool_metrics.keys())}")
