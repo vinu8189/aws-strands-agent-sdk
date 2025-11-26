@@ -1,10 +1,5 @@
 # aws-strands-agent-sdk
 
-Here is a **polished, expanded, but still concise** version of your main-level README description.
-Clear, professional, and future-ready:
-
----
-
 A collection of hands-on experiments using the **Strands Agent SDK** with **local Ollama models**. Each project explores a specific capability—basic agent interactions, tool usage, reasoning metrics, local observability, and OpenTelemetry integrations.
 
 This repository documents my learning journey in building **local-first, intelligent AI agents** with Python. The structure is project-based, allowing each experiment to stand on its own while forming a broader roadmap toward production-grade agent development.
