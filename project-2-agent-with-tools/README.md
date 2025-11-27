@@ -44,18 +44,23 @@ source .venv/bin/activate       # macOS/Linux
 pip install strands-agents strands-tools ollama
 ```
 
-### 3. Ensure you have the model installed in Ollama
+### 3. Verify your local Ollama model
+
+Ollama is already installed on your system.
+To check available models:
 
 ```bash
-ollama pull qwen2.5:0.5b
 ollama list
 ```
 
-You should see something like:
+Pick a model name (e.g., `gemma3:1b`) and use it in your agent code:
 
+```python
+model_id="qwen2.5:0.5b"
+host="http://localhost:11434"
 ```
-qwen2.5:0.5b    <size>    <date>
-```
+
+**Prerequisite:** Ollama must be running locally with at least one model installed.
 
 ---
 
@@ -108,4 +113,5 @@ project2-agent-with-tools/
 
 Strands Documentation:
 [https://strandsagents.com/latest/documentation/docs/](https://strandsagents.com/latest/documentation/docs/)
+
 
