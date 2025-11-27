@@ -60,7 +60,9 @@ model_id="qwen2.5:0.5b"
 host="http://localhost:11434"
 ```
 
-**Prerequisite:** Ollama must be running locally with at least one model installed.
+**Prerequisite:** Ollama must be running locally with the specific model installed.
+
+To know more on Ollama models and download : visit https://ollama.com/search
 
 ---
 
@@ -113,5 +115,6 @@ project2-agent-with-tools/
 
 Strands Documentation:
 [https://strandsagents.com/latest/documentation/docs/](https://strandsagents.com/latest/documentation/docs/)
+
 
 
